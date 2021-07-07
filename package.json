@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-base-assert-is-column-major",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Given a stride array, determine whether an array is column-major.",
   "license": "Apache-2.0",
   "author": {
