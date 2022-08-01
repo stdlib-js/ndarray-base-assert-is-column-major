@@ -1,7 +1,7 @@
-/**
+/*
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2021 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,28 +16,28 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 2.0
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
+
+import { ArrayLike } from '@stdlib/types/array';
 
 /**
-* Given a stride array, determine whether an array is column-major.
+* Returns a boolean indicating if an array is column-major based on a provided stride array.
 *
-* @module @stdlib/ndarray-base-assert-is-column-major
+* @param strides - integer stride array
+* @returns boolean indicating if an array is column-major
 *
 * @example
-* var isColumnMajor = require( '@stdlib/ndarray-base-assert-is-column-major' );
-*
 * var bool = isColumnMajor( [ 1, 2 ] );
 * // returns true
 *
 * bool = isColumnMajor( [ 2, 1 ] );
 * // returns false
 */
-
-// MODULES //
-
-var isColumnMajor = require( './main.js' );
+declare function isColumnMajor( strides: ArrayLike<number> ): boolean;
 
 
 // EXPORTS //
 
-module.exports = isColumnMajor;
+export = isColumnMajor;
