@@ -38,12 +38,12 @@ C -->|bundle| D[esm];
 C -->|bundle| E[deno];
 C -->|bundle| F[umd];
 
-click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assert/is-column-major"
-click B href "https://github.com/stdlib-js/ndarray-base-assert-is-column-major/tree/main"
-click C href "https://github.com/stdlib-js/ndarray-base-assert-is-column-major/tree/production"
-click D href "https://github.com/stdlib-js/ndarray-base-assert-is-column-major/tree/esm"
-click E href "https://github.com/stdlib-js/ndarray-base-assert-is-column-major/tree/deno"
-click F href "https://github.com/stdlib-js/ndarray-base-assert-is-column-major/tree/umd"
+%% click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assert/is-column-major"
+%% click B href "https://github.com/stdlib-js/ndarray-base-assert-is-column-major/tree/main"
+%% click C href "https://github.com/stdlib-js/ndarray-base-assert-is-column-major/tree/production"
+%% click D href "https://github.com/stdlib-js/ndarray-base-assert-is-column-major/tree/esm"
+%% click E href "https://github.com/stdlib-js/ndarray-base-assert-is-column-major/tree/deno"
+%% click F href "https://github.com/stdlib-js/ndarray-base-assert-is-column-major/tree/umd"
 ```
 
 [stdlib-url]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/base/assert/is-column-major
