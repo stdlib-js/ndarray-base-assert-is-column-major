@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isColumnMajor from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-column-major@esm/index.mjs';
+import isColumnMajor from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-column-major@v0.1.0-esm/index.mjs';
 ```
 
 #### isColumnMajor( strides )
@@ -94,7 +94,7 @@ bool = isColumnMajor( [ 2, 1 ] );
 <script type="module">
 
 import shape2strides from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-shape2strides@esm/index.mjs';
-import isColumnMajor from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-column-major@esm/index.mjs';
+import isColumnMajor from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-column-major@v0.1.0-esm/index.mjs';
 
 var shape = [ 10, 10, 10 ];
 
