@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isColumnMajor from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-column-major@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-assert-is-column-major/tags). For example,
+
+```javascript
 import isColumnMajor from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-column-major@v0.2.2-esm/index.mjs';
 ```
 
@@ -94,7 +99,7 @@ bool = isColumnMajor( [ 2, 1 ] );
 <script type="module">
 
 import shape2strides from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-shape2strides@esm/index.mjs';
-import isColumnMajor from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-column-major@v0.2.2-esm/index.mjs';
+import isColumnMajor from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-column-major@esm/index.mjs';
 
 var shape = [ 10, 10, 10 ];
 
