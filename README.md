@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isColumnMajor from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-column-major@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-assert-is-column-major/tags). For example,
+
+```javascript
 import isColumnMajor from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-column-major@v0.2.2-deno/mod.js';
 ```
 
@@ -89,7 +94,7 @@ bool = isColumnMajor( [ 2, 1 ] );
 
 ```javascript
 import shape2strides from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-shape2strides@deno/mod.js';
-import isColumnMajor from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-column-major@v0.2.2-deno/mod.js';
+import isColumnMajor from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-column-major@deno/mod.js';
 
 var shape = [ 10, 10, 10 ];
 
